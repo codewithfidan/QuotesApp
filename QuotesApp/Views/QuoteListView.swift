@@ -18,7 +18,6 @@ struct QuoteListView: View {
                     QuoteDetailView(quote: q)
                 } label: {
                     VStack{
-                        Text("hello")
                         ZStack{
                             Image(q.image)
                                 .resizable()
